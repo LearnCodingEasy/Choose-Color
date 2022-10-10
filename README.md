@@ -40,7 +40,7 @@ npm install
 ``` 
 
 # View
-[View](https://learncodingeasy.github.io/How-to-Create-Responsive-Navigation-Bar-using-HTML-CSS-Javascript/dist/)
+[View](https://learncodingeasy.github.io/Choose-Color/dist/)
 
 
 # Preview
