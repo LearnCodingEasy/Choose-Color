@@ -1,0 +1,94 @@
+doctype
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Choose Color    
+    link(rel="stylesheet" href="css/style.css")
+  body
+    header 
+      nav 
+
+    main 
+      .wrapper-main 
+        .inner.container 
+          .input 
+            //- h2 Light / Dark Mode
+            //- div(class="toggle-container")
+            //-   input(type="checkbox" id="switch" name="theme")
+            //-   label(for="switch") Toggle
+
+            h2 Body Background Color
+            div(class="body-container")
+              .light
+                input(type="text" id="body-bg-color-light" placeholder="Light" onkeyup="getBodyLight()")
+
+              .dark
+                input(type="text" id="body-bg-color-dark" placeholder="Dark" onkeyup="getBodyDark()")
+
+            h2 Main Background Color
+            div(class="main-container")
+              .light
+                input(type="text" id="main-bg-light" placeholder="Light" onkeyup="getMainLight()")
+              .dark
+                input(type="text" id="main-bg-dark" placeholder="Dark" onkeyup="getMainDark()")
+
+            h2 title background color
+            div(class="title-bg-container")
+              .light
+                input(type="text" id="title-bg-light" placeholder="Light" onkeyup="getTitleBgLight()")
+              .dark
+                input(type="text" id="title-bg-dark" placeholder="Dark" onkeyup="getTitleBgDark()")
+
+            h2 title color
+            div(class="title-container")
+              .light
+                input(type="text" id="title-color-light" placeholder="Light" onkeyup="getTitleLight()")
+              .dark
+                input(type="text" id="title-color-dark" placeholder="Dark" onkeyup="getTitleDark()")
+
+            h2 text color
+            div(class="text-container")
+              .light
+                input(type="text" id="text-color-light" placeholder="Light" onkeyup="getTextLight()")
+              .dark
+                input(type="text" id="text-color-dark" placeholder="Dark" onkeyup="getTextDark()")
+
+            h2 Font Family 
+            div(class="font-container")
+              input(type="text" id="font-family")
+
+            h2 Create Color
+            div(class="create-container")
+              button(class="submit") Create
+
+
+
+
+
+          .output 
+            .bg-light
+              .body 
+                .main 
+                  .title-bg-color  title background color
+                  .title-color title color
+                  .text-color Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, voluptas veniam. Iusto molestias aspernatur corrupti.
+            .bg-dark
+              .body 
+                .main 
+                  .title-bg-color  title background color
+                  .title-color title color
+                  .text-color Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio aspernatur id magnam vitae tempora?
+
+          div(class="All-Color-Save-container")
+            h2 Saved
+            ul(class="wrapper-colors" id="wrapper-colors")
+              li 1
+              li 1
+              li 1
+              li 1
+
+
+    script(src="js/script.js")
+    script(src="http://localhost:35729/livereload.js")
+
+

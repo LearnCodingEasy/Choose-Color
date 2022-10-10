@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Choose Color    </title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header> 
+      <nav> </nav>
+    </header>
+    <main> 
+      <div class="wrapper-main"> 
+        <div class="inner container"> 
+          <div class="input"> 
+            <h2>Body Background Color</h2>
+            <div class="body-container">
+              <div class="light">
+                <input type="text" id="body-bg-color-light" placeholder="Light" onkeyup="getBodyLight()">
+              </div>
+              <div class="dark">
+                <input type="text" id="body-bg-color-dark" placeholder="Dark" onkeyup="getBodyDark()">
+              </div>
+            </div>
+            <h2>Main Background Color</h2>
+            <div class="main-container">
+              <div class="light">
+                <input type="text" id="main-bg-light" placeholder="Light" onkeyup="getMainLight()">
+              </div>
+              <div class="dark">
+                <input type="text" id="main-bg-dark" placeholder="Dark" onkeyup="getMainDark()">
+              </div>
+            </div>
+            <h2>title background color</h2>
+            <div class="title-bg-container">
+              <div class="light">
+                <input type="text" id="title-bg-light" placeholder="Light" onkeyup="getTitleBgLight()">
+              </div>
+              <div class="dark">
+                <input type="text" id="title-bg-dark" placeholder="Dark" onkeyup="getTitleBgDark()">
+              </div>
+            </div>
+            <h2>title color</h2>
+            <div class="title-container">
+              <div class="light">
+                <input type="text" id="title-color-light" placeholder="Light" onkeyup="getTitleLight()">
+              </div>
+              <div class="dark">
+                <input type="text" id="title-color-dark" placeholder="Dark" onkeyup="getTitleDark()">
+              </div>
+            </div>
+            <h2>text color</h2>
+            <div class="text-container">
+              <div class="light">
+                <input type="text" id="text-color-light" placeholder="Light" onkeyup="getTextLight()">
+              </div>
+              <div class="dark">
+                <input type="text" id="text-color-dark" placeholder="Dark" onkeyup="getTextDark()">
+              </div>
+            </div>
+            <h2>Font Family </h2>
+            <div class="font-container">
+              <input type="text" id="font-family">
+            </div>
+            <h2>Create Color</h2>
+            <div class="create-container">
+              <button class="submit">Create</button>
+            </div>
+          </div>
+          <div class="output"> 
+            <div class="bg-light">
+              <div class="body"> 
+                <div class="main"> 
+                  <div class="title-bg-color"> title background color</div>
+                  <div class="title-color">title color</div>
+                  <div class="text-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, voluptas veniam. Iusto molestias aspernatur corrupti.</div>
+                </div>
+              </div>
+            </div>
+            <div class="bg-dark">
+              <div class="body"> 
+                <div class="main"> 
+                  <div class="title-bg-color"> title background color</div>
+                  <div class="title-color">title color</div>
+                  <div class="text-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio aspernatur id magnam vitae tempora?</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="All-Color-Save-container">
+            <h2>Saved</h2>
+            <ul class="wrapper-colors" id="wrapper-colors">
+              <li>1</li>
+              <li>1</li>
+              <li>1</li>
+              <li>1</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
+  </body>
+</html>
