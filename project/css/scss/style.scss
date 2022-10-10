@@ -11,7 +11,7 @@ main {
   .wrapper-main {
     .inner.container {
       display: grid;
-      grid-template-columns: 15% 78% 5%;
+      grid-template-columns: 15% 75% 5%;
       gap: 2% 2%;
       .input {
         border: 0.2rem solid rgb(86, 79, 79);
@@ -21,13 +21,14 @@ main {
         border-radius: 0 10px 10px 0;
         padding: 0.5rem;
         h2 {
-          font-size: 16px;
+          font-size: 8px;
+          font-weight: bold;
           text-transform: capitalize;
-          padding: 10px 5px;
+          padding: 8px 5px;
           background-color: #ccc;
           color: #000;
           text-align: center;
-          border-radius: 0.5rem;
+          border-radius: 0.3rem;
         }
         .toggle-container {
           input[type="checkbox"] {
@@ -85,11 +86,12 @@ main {
           .light,
           .dark {
             input {
-              width: 90%;
+              width: 100%;
               border: 2px solid #ddd;
               outline: none;
               border-radius: 5px;
-              height: 25px;
+              height: 20px;
+              font-size: 10px;
             }
           }
         }
@@ -178,7 +180,7 @@ main {
         // Ul
         .wrapper-colors {
           display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(18%, 1fr));
+          grid-template-columns: repeat(auto-fill, minmax(98%, 1fr));
           grid-gap: 2% 2%;
           list-style: none;
           padding: 0;
